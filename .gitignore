@@ -54,3 +54,4 @@ Voyhoy/
 .mpd/mpd.log
 .mpd/mpd.pid
 .mpd/mpdstate
+.ncmpcpp/error.log
