@@ -55,3 +55,4 @@ Voyhoy/
 .mpd/mpd.pid
 .mpd/mpdstate
 .ncmpcpp/error.log
+.gitignore
