@@ -1,16 +1,7 @@
-#!.i3/
-#!.i3pystatus
-#!.gitconfig
-#!.mpd/
-#!.ncmpcpp/
-#!.vimrc
-#!.xscreensaver
-#!.zshrc
-
+# Ignoring all the files that I don't need to version
 .IntelliJIdea13/
 .Skype/
 .Xauthority
-.Xdefaults
 .actionbarsherlock/
 .activator/
 .android/
@@ -57,3 +48,9 @@ Downloads/
 IdeaProjects/
 Projects/
 Voyhoy/
+
+# Ignoring some files in the mpd directory
+.mpd/mpd.db
+.mpd/mpd.log
+.mpd/mpd.pid
+.mpd/mpdstate

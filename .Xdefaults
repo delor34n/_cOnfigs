@@ -1,0 +1,23 @@
+URxvt.termName: rxvt-256color
+URxvt*depth: 32
+URxvt*buffered:false
+URxvt*transparent:true
+URxvt*shading:20
+URxvt*scrollBar_right:false
+URxvt*scrollBar:false
+URxvt*transpscrollbar:true
+URxvt*saveLines:32767
+URxvt*perl-lib:    /usr/lib/urxvt/perl/
+
+!URxvt*font: xft:monospace:style=Book:pixelsize=12
+!URxvt*boldFont: xft:monospace:style=Bold:pixelsize=10
+
+URxvt*font: xft:Monospace:pixelsize=12
+URxvt*boldFont: xft:Monospace:bold:pixelsize=12
+
+URxvt*foreground:#f2f2f2
+URxvt*background:#101010
+
+URxvt.perl-ext: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
