@@ -1,0 +1,18 @@
+[user]
+	name = delor34n
+	email = sebastian.lastra@usach.cl
+[github]
+    user = delor34n
+[color]
+    ui = true
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lol = log --pretty=oneline --abbrev-commit --branches=* --graph --decorate --all
+[core]
+    autocrlf = input
+[push]
+	default = simple
