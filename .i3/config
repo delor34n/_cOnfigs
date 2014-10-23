@@ -32,12 +32,21 @@ bindsym $mod+Shift+c kill
 bindsym $mod+p exec dmenu_run
 
 # lock screen
-bindsym $mod+b exec lock
+bindsym XF86Battery exec lock
 
 # extra monitor
-bindsym $mod+Shift+a exec xrandr --auto
+bindsym XF86Display exec xrandr --auto
 bindsym $mod+m exec xrandr --output LVDS1 --auto --primary --output VGA1 --auto --right-of LVDS1
 bindsym $mod+n exec xrandr --output LVDS1 --auto --primary --output VGA1 --auto --left-of LVDS1
+
+# binding volume shortcut
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 2dB+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
+
+# binding bright shortcut
+bindsym XF86MonBrightnessDown exec xbacklight -5
+bindsym XF86MonBrightnessUp exec xbacklight +10
+bindsym XF86Launch1 exec xbacklight +100
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that installed.
