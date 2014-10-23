@@ -26,4 +26,3 @@ au InsertLeave * match ExtraWhiteSpace /\s\+$/
 
 " Mouse Enable
 set mouse=r
-
