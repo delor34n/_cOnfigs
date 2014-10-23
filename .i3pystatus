@@ -19,27 +19,16 @@ status.register("disk",
 	format="[root]: {free}",)
 
 # Shows mpd status
-# status.register("mpd",
-#	format="{status} {artist} - {title}",
-#	status={
-#		"pause": "▷",
-#		"play": "▶",
-#		"stop": "◾",
-#	},)
+status.register("mpd",
+    format="{status} {artist} - {title}",
+	status={
+		"pause": "▷",
+		"play": "▶",
+		"stop": "◾",
+    },
+)
 
-#status.register("battery",
-#    format="{status}/{percentage:.2f}% [{percentage_design:.2f}%] {remaining:%E%hh:%Mm}",
-#    alert=True,
-#    alert_percentage=5,
-#    status={
-#        "DIS": "↓",
-#        "CHR": "↑",
-#        "FULL": "=",
-#    },
-#)
-
-# This would look like this:
-# Discharging 6h:51m
+# Battery status
 status.register("battery",
     format="{status} {remaining:%E%hh:%Mm}",
     alert=True,
