@@ -7,13 +7,10 @@ URxvt*scrollBar_right:false
 URxvt*scrollBar:false
 URxvt*transpscrollbar:true
 URxvt*saveLines:32767
-URxvt*perl-lib:    /usr/lib/urxvt/perl/
+URxvt*perl-lib: /usr/lib/URxvt/perl/
 
-!URxvt*font: xft:monospace:style=Book:pixelsize=12
-!URxvt*boldFont: xft:monospace:style=Bold:pixelsize=10
-
-URxvt*font: xft:Monospace:pixelsize=12
-URxvt*boldFont: xft:Monospace:bold:pixelsize=12
+URxvt*font: xft:Monaco:style=Book:pixelsize=15
+URxvt*boldFont: xft:Monaco:style=Bold:pixelsize=15
 
 URxvt*foreground:#f2f2f2
 URxvt*background:#101010
@@ -21,3 +18,48 @@ URxvt*background:#101010
 URxvt.perl-ext: default,matcher
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
+
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    magenta
+! color6    cyan
+! color7    white
+
+URxvt*color0:    #444444
+URxvt*color1:    #df1a00
+URxvt*color2:    #8fbe00
+URxvt*color3:    #fafc90
+URxvt*color4:    #a9cdeb
+URxvt*color5:    #ab7eae
+URxvt*color6:    #4a909f
+URxvt*color7:    #c6cdcd
+
+! Light
+! color8    black
+! color9    red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    magenta
+! color14    cyan
+! color15    white
+
+URxvt*color8:     #1f1f1f
+URxvt*color9:     #d85240
+URxvt*color10:    #aee239
+URxvt*color11:    #fffb00
+URxvt*color12:    #b6defb
+URxvt*color13:    #edcdef
+URxvt*color14:    #00ffff
+URxvt*color15:    #eeeeee
+
+! Xft settings
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
